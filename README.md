@@ -1,6 +1,6 @@
 # JapanMarketAnalysis
 
-# Index Market Analysis
+**Index Market Analysis**
 
 Success in any financial market requires one to identify solid investments. When a stock or derivative is undervalued, it makes sense to buy. If it's overvalued, perhaps it's time to sell. While these finance decisions were historically made manually by professionals, technology has ushered in new opportunities for retail investors. Data scientists, specifically, may be interested to explore quantitative trading, where decisions are executed programmatically based on predictions from trained models.
 
@@ -12,13 +12,13 @@ This competition will compare your models against real future returns after the 
 
 All winning models will be made public so that other participants can learn from the outstanding models. Excellent models also may increase the interest in the market among retail investors, including those who want to practice quantitative trading. At the same time, you'll gain your own insights into programmatic investment methods and portfolio analysis―and you may even discover you have an affinity for the Japanese market.
 
-##Evaluation
+**Evaluation**
 
 Submissions are evaluated on the Sharpe Ratio of the daily spread returns. You will need to rank each stock active on a given day. The returns for a single day treat the 200 highest (e.g. 0 to 199) ranked stocks as purchased and the lowest (e.g. 1999 to 1800) ranked 200 stocks as shorted. The stocks are then weighted based on their ranks and the total returns for the portfolio are calculated assuming the stocks were purchased the next day and sold the day after that. You can find a python implementation of the metric here.
 
 You must submit to this competition using the provided python time-series API, which ensures that models do not peek forward in time. To use the API, follow this template in Kaggle Notebooks:
 
-#Code Tester
+**Code Tester**
 
 import jpx_tokyo_market_prediction
 env = jpx_tokyo_market_prediction.make_env()   # initialize the environment
@@ -32,7 +32,7 @@ Use ranks that are below zero or greater than or equal to the number of stocks f
 Submit any duplicated ranks.
 Change the order of the rows.
 
-#Timeline
+**Timeline**
 
 This is a forecasting competition with an active training phase and a second period where models will be run against real market data.
 Training Timeline
@@ -46,7 +46,7 @@ June 28, 2022 - Team Merger deadline. This is the last day participants may join
 July 5, 2022 - Final submission deadline.
 All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
 
-#Code Requirements
+**Code Requirements**
 
 Submissions to this competition must be made through Notebooks. In order for the "Submit" button to be active after a commit, the following conditions must be met:
 
