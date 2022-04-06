@@ -1,4 +1,5 @@
 # JapanMarketAnalysis
+
 # Index Market Analysis
 
 Success in any financial market requires one to identify solid investments. When a stock or derivative is undervalued, it makes sense to buy. If it's overvalued, perhaps it's time to sell. While these finance decisions were historically made manually by professionals, technology has ushered in new opportunities for retail investors. Data scientists, specifically, may be interested to explore quantitative trading, where decisions are executed programmatically based on predictions from trained models.
@@ -11,7 +12,7 @@ This competition will compare your models against real future returns after the 
 
 All winning models will be made public so that other participants can learn from the outstanding models. Excellent models also may increase the interest in the market among retail investors, including those who want to practice quantitative trading. At the same time, you'll gain your own insights into programmatic investment methods and portfolio analysis―and you may even discover you have an affinity for the Japanese market.
 
-#Evaluation
+##Evaluation
 
 Submissions are evaluated on the Sharpe Ratio of the daily spread returns. You will need to rank each stock active on a given day. The returns for a single day treat the 200 highest (e.g. 0 to 199) ranked stocks as purchased and the lowest (e.g. 1999 to 1800) ranked 200 stocks as shorted. The stocks are then weighted based on their ranks and the total returns for the portfolio are calculated assuming the stocks were purchased the next day and sold the day after that. You can find a python implementation of the metric here.
 
