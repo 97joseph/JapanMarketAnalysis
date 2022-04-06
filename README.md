@@ -1,4 +1,6 @@
 # JapanMarketAnalysis
+![t54gr](https://user-images.githubusercontent.com/33089347/161894745-c3375263-53c2-43e5-a1bb-d7fd27c7a122.PNG)
+
 
 **Index Market Analysis**
 
